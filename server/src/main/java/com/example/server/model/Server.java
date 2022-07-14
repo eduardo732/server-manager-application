@@ -11,7 +11,6 @@ import javax.validation.constraints.NotEmpty;
 @Setter
 @ToString
 @RequiredArgsConstructor
-@NoArgsConstructor
 @AllArgsConstructor
 public class Server {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
